@@ -7,4 +7,3 @@ const sayBye = (name)=>{
 }
 
 module.exports={sayHi, sayBye}
-// console.log(module)

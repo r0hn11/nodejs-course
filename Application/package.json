@@ -1,15 +1,29 @@
 {
-  "name": "application",
+  "name": "node_tutorial",
   "version": "1.0.0",
-  "description": "",
+  "description": "node.js tutorial",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "Rohan",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r0hn11/node-express-course.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Rohan Chavan",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r0hn11/node-express-course/issues"
+  },
+  "homepage": "https://github.com/r0hn11/node-express-course#readme",
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }

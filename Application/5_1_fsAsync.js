@@ -18,13 +18,14 @@ readFile(readpath.toString(), encoding, (err, result) => {
         return
     }
     const firstfile = result
-
-    input = firstfile + ' Rohan'
+    console.log(firstfile);
+    input = firstfile + '\nRohan'
     writeFile(writepath.toString(), input, (err, result)=>{
         if(err){
             console.log(err)
             return
         }
+        console.log(result);
         console.log('Success')
     })
 })
